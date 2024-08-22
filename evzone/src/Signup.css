@@ -1,0 +1,117 @@
+
+/*nav*/
+.signnavbar{
+    height:50px;
+    background-color: rgb(60, 236, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 5px;
+    margin-bottom: none;
+}
+.panel{
+    height: 25px;
+    background-color: yellow;
+    margin-top: none;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.signbody{
+   background-color: rgba(34, 44, 43, 0.705);
+   background-repeat: no-repeat;
+   background-image: url("backimg1.jpg");
+   background-size: cover;
+   height: 120vh;
+   
+}
+
+/*form*/
+
+.signcontents{
+    border: 3px solid black;
+    width:300px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.signbody h2{
+    text-align: center;
+    margin-top: 5px;
+    color:rgb(46, 228, 100) ;
+}
+.signcontents input{
+    margin-bottom:20px;
+    padding: 5px;
+    padding-right: 20px;
+    width: 70%;
+}
+.signcontents button {
+    font-size: larger;
+    color: white;
+    margin-left: 36%;
+    
+    background-color:rgba(131, 30, 226, 0.856);
+    border: none;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+button:hover{
+    background-color: rgb(35, 134, 134);
+}
+#signsubmit{
+    color: white;
+    text-decoration: none;
+}
+
+.signcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    justify-content:space-evenly;
+}
+.signcontents label{
+    font-size: large;
+    color: rgb(46, 228, 100);
+}
+/*.box{
+    
+    width: 300px;
+    height: 160px;
+    background-image: url("boximg.webp");
+    background-size:contain;
+    border-radius: 20px;
+    
+}*/
+.signbox1{
+   
+    width: 250px;
+    height: 250px;
+    background-image: url("evlogo3.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+.signcontents p{
+    color: rgb(46, 228, 100);
+}
+.signcontents p a{
+    color: blue;
+}
+span{
+    color: red;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}

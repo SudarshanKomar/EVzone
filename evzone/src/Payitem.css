@@ -1,0 +1,41 @@
+.paybody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.payment-details-container {
+    text-align: center;
+    margin: 50px;
+}
+
+#payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.paybody label {
+    display: block;
+    margin-top: 10px;
+}
+
+.paybody input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.paybutton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.paybutton:hover {
+    background-color: #2980b9;
+}

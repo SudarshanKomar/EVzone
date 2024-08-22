@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#vehicles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.vehicle-container {
+    width: 45%; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.vehicle-container:hover {
+    transform: scale(1.05);
+}
+
+.vehicle-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.vehicle-container h3 {
+    padding: 15px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.vehicle-container p {
+    padding: 15px;
+    margin: 0;
+    color: #555;
+}
+
